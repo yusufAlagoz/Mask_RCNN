@@ -49,7 +49,7 @@ jupyter notebook komutu yazılır.
 Açılan sayfadan depo dosyası içerisindeki samples klasörü içerisindeki demo.ipynb dosyası açılır.
 
 
-#jupyter kullanımı için detaylı anlatıma https://www.codecademy.com/articles/how-to-use-jupyter-notebooks linkinden ulaşılabilir.
+# jupyter kullanımı için detaylı anlatıma https://www.codecademy.com/articles/how-to-use-jupyter-notebooks linkinden ulaşılabilir.
 Ayrıca Google 'ın  ücretsiz olarak sunduğu https://colab.research.google.com/ kullanılabilir.
 
 
