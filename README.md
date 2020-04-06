@@ -8,6 +8,7 @@ Video : https://www.youtube.com/watch?v=g7z4mkfRjI4
 
 ### Kurulum Aşamaları
 Altyapı olarak Anaconda kullanılır. Anaconda sistemimizde kurulu değil ise detaylı olarak anlatımı aşağıdaki videodan erişilebilir.
+
 https://www.youtube.com/watch?v=T8wK5loXkXg
 
 ### Anaconda kurulduktan sonra MaskRCNN ortamı(environment) kurulur.
@@ -29,7 +30,7 @@ numpy, scipy, cython, h5py, Pillow, scikit-image, tensorflow-gpu==1.12, keras==2
 
 pip install -r requirements.txt
 
-# Mask R-CNN için gerekli bir diğer kütüphane pycocotools aşağıdaki adımlar takip edilerek kurulur. 
+### Mask R-CNN için gerekli bir diğer kütüphane pycocotools aşağıdaki adımlar takip edilerek kurulur. 
 git clone https://github.com/philferriere/cocoapi.git
 
 use pip to install pycocotools
