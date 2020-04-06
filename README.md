@@ -1,7 +1,7 @@
 
 ### MASK RCNN Kurulumu detaylı anlatımı aşağıda yer almaktadır.
 
-## Mask R-CNN Nedir ?
+# Mask R-CNN Nedir ?
 Mask R-CNN detaylı bilgisine makalenden ulaşılabilir.https://arxiv.org/pdf/1703.06870.pdf
 
 Video : https://www.youtube.com/watch?v=g7z4mkfRjI4
