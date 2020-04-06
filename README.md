@@ -36,15 +36,15 @@ use pip to install pycocotools
 pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
 
 # Model eğitimin sırasında öğrenme aktarımı için kullanılcak mask_rcnn_coco.h5 dosyası indirierek depo klasörünün içerisine kopyalanır.
-https://github.com/matterport/Mask_RCNN/releases sayfasına girilerek
-
-mask_rcnn_coco.h5 dosyası indirilir.
+https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5
 
 # Eğitim yapılmadan model ile ilgili demo dosyası incelenmek istenir ise ;
 
-Terminal ekranı açılarak bir jupyter notebook sayfası açılırak aşağıdaki komut yazılır;
+Bir jupyter notebook sayfası açılırak aşağıdaki komut yazılır;
 
-jupyter notebook 
+Öncelikle bir terminal ekranı açılır.
+
+jupyter notebook komutu yazılır.
 
 Açılan sayfadan depo dosyası içerisindeki samples klasörü içerisindeki demo.ipynb dosyası açılır.
 
