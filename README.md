@@ -15,6 +15,7 @@ conda create -n MaskRCNN python=3.6 pip
 
 ### Anaconda kurulduktan sonra conda path'e eklenir.
 export PATH=~/anaconda3/bin:$PATH
+
 conda --version komutu ile kontrol edilir.
 ### Anaconda kurulduktan sonra MaskRCNN ortamı(environment) kurulur.
 
