@@ -19,6 +19,7 @@ conda --version komutu ile kontrol edilir.
 
 ### Ortam kurulumu ile ilgili detaylı bilgi için
 https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+
 conda create -n MaskRCNN python=3.6 pip
 
 ### Ortam kurulduktan sonra aktifleştirilir.
@@ -27,7 +28,7 @@ source activate MaskRCNN
 ### Mask R-CNN deposu bilgisayarımıza klonlanır.
 git clone https://github.com/yusufAlagoz/Mask_RCNN
 
-###Mask R-CNN için gerekli kütüphaneler depodan indiriken requirements dosyasında yer alır. Bu kütüphaneler aşağıdaki komut ile kurulur.
+### Mask R-CNN için gerekli kütüphaneler depodan indiriken requirements dosyasında yer alır. Bu kütüphaneler aşağıdaki komut ile kurulur.
 numpy, scipy, cython, h5py, Pillow, scikit-image, tensorflow-gpu==1.15, keras==2.1.4, jupyter , seaborn,pandas
 
 pip install -r requirements.txt
