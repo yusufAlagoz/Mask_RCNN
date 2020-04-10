@@ -53,7 +53,7 @@ Açılan sayfadan depo dosyası içerisindeki samples klasörü içerisindeki de
 
 
 ### jupyter kullanımı için detaylı anlatıma https://www.codecademy.com/articles/how-to-use-jupyter-notebooks linkinden ulaşılabilir.
-Ayrıca Google 'ın  ücretsiz olarak sunduğu https://colab.research.google.com/ kullanılabilir.
+Ayrıca Google 'ın  ücretsiz olarak sunduğu https://colab.research.google.com/ bazı test uygulamaları için kullanılabilir.
 
 
 ### Ayrıca Mask R-CNN detaylı adım adım bilgilendirme için aşağıdaki siteye bakılabilir.
