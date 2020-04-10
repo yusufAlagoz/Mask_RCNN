@@ -11,25 +11,23 @@ Altyapı olarak Anaconda kullanılır. Anaconda sistemimizde kurulu değil ise d
 
 https://www.youtube.com/watch?v=T8wK5loXkXg
 
-conda create -n MaskRCNN python=3.6 pip
-
-### Anaconda kurulduktan sonra conda path'e eklenir.
+###  Conda path'e eklenir.
 export PATH=~/anaconda3/bin:$PATH
 
 conda --version komutu ile kontrol edilir.
-### Anaconda kurulduktan sonra MaskRCNN ortamı(environment) kurulur.
+###  MaskRCNN ortamı(environment) kurulur.
 
 ### Ortam kurulumu ile ilgili detaylı bilgi için
 https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+conda create -n MaskRCNN python=3.6 pip
 
 ### Ortam kurulduktan sonra aktifleştirilir.
-source activate mrcnn
+source activate MaskRCNN
 
 ### Mask R-CNN deposu bilgisayarımıza klonlanır.
 git clone https://github.com/yusufAlagoz/Mask_RCNN
 
-Mask R-CNN için gerekli kütüphaneler depodan indiriken requirements dosyasında yer alır. Bu kütüphaneler aşağıdaki komut ile kurulur.
-
+###Mask R-CNN için gerekli kütüphaneler depodan indiriken requirements dosyasında yer alır. Bu kütüphaneler aşağıdaki komut ile kurulur.
 numpy, scipy, cython, h5py, Pillow, scikit-image, tensorflow-gpu==1.15, keras==2.1.4, jupyter , seaborn,pandas
 
 pip install -r requirements.txt
