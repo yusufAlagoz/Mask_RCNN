@@ -13,6 +13,11 @@ https://www.youtube.com/watch?v=T8wK5loXkXg
 
 conda create -n MaskRCNN python=3.6 pip
 
+### Anaconda kurulduktan sonra conda path'e eklenir.
+export PATH=~/anaconda3/bin:$PATH
+conda --version komutu ile kontrol edilir.
+### Anaconda kurulduktan sonra MaskRCNN ortamı(environment) kurulur.
+
 ### Ortam kurulumu ile ilgili detaylı bilgi için
 https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 
