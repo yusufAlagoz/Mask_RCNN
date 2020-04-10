@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ### Mask R-CNN için gerekli bir diğer kütüphane pycocotools aşağıdaki adımlar takip edilerek kurulur. 
 git clone https://github.com/philferriere/cocoapi.git
 
-use pip to install pycocotools
+### Kurulum için aşağıdaki komut çalıştırılır.
 
 pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
 
