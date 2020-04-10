@@ -4,9 +4,11 @@ Pillow
 cython
 matplotlib
 scikit-image
-tensorflow==1.12
+tensorflow-gpu==1.15
 keras==2.1.4
 opencv-python
 h5py
 imgaug
 IPython[all]
+seaborn
+pandas

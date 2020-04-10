@@ -29,7 +29,7 @@ git clone https://github.com/yusufAlagoz/Mask_RCNN
 
 Mask R-CNN için gerekli kütüphaneler depodan indiriken requirements dosyasında yer alır. Bu kütüphaneler aşağıdaki komut ile kurulur.
 
-numpy, scipy, cython, h5py, Pillow, scikit-image, tensorflow-gpu==1.12, keras==2.1.4, jupyter
+numpy, scipy, cython, h5py, Pillow, scikit-image, tensorflow-gpu==1.15, keras==2.1.4, jupyter , seaborn,pandas
 
 pip install -r requirements.txt
 
@@ -45,11 +45,9 @@ https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5
 
 ### Eğitim yapılmadan model ile ilgili demo dosyası incelenmek istenir ise ;
 
-Bir jupyter notebook sayfası açılırak aşağıdaki komut yazılır;
+Bir jupyter notebook için terminal ekranı açılarak aşağıdaki komut yazılır;
 
-Öncelikle bir terminal ekranı açılır.
-
-jupyter notebook komutu yazılır.
+jupyter notebook 
 
 Açılan sayfadan depo dosyası içerisindeki samples klasörü içerisindeki demo.ipynb dosyası açılır.
 
