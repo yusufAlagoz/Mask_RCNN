@@ -9,6 +9,10 @@ Video : https://www.youtube.com/watch?v=g7z4mkfRjI4
 Altyapı olarak Anaconda kullanılır. Anaconda sistemimizde kurulu değil ise detaylı olarak anlatımı aşağıdaki videodan erişilebilir.
 https://www.youtube.com/watch?v=T8wK5loXkXg
 
+### Anaconda kurulduktan sonra conda path'e eklenir.
+export PATH=~/anaconda3/bin:$PATH
+conda --version komutu ile kontrol edilir.
+
 # Anaconda kurulduktan sonra MaskRCNN ortamı(environment) kurulur.
 
 conda create -n MaskRCNN python=3.6 pip
