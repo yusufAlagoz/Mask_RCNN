@@ -1,0 +1,12 @@
+Balıkçı
+Askeri Tip-1
+Askeri Tip-2
+Askeri Tip-3
+Tanker
+Destek Gemisi
+Askeri Tip-4
+Askeri Tip-5
+Askeri Tip-6
+Askeri Tip-7
+Konteyner
+Askeri Tip-8
