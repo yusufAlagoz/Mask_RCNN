@@ -25,6 +25,10 @@ Usage: import the module (see Jupyter notebooks for examples), or run from
 
     # Apply color splash to video using the last weights you trained
     python3 balloon.py splash --weights=last --video=<URL or path to file>
+
+    # Komut satırından eğitim içim
+    python3 ShipClassification.py train --dataset=/dataset --weights=coco
+
 """
 
 import os
